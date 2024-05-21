@@ -22,7 +22,14 @@ namespace ZPP_2.Controllers
         {
             return View();
         }
-
+        public IActionResult Parent()
+        {
+            return View();
+        }
+        public IActionResult Child()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
