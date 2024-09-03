@@ -1,74 +1,111 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SQLitePCL;
-using ZPP_2.Models;
-using ZPP_2.Repository;
+using Microsoft.AspNetCore.Mvc;
+using zpp_aplikacja.Pages.Models;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
 
-namespace ZPP_2.Controllers
+namespace zpp_aplikacja.Pages.Controllers
 {
     public class ParentController : Controller
     {
-        private readonly ITodoRepository _todoRepository;
+        private string UsersFilePath = "Data/users.json";
 
-        public ParentController(ITodoRepository todoRepository)
-        {
-            _todoRepository = todoRepository;
-        }
-
-        [HttpGet]
         public IActionResult Index()
         {
-            var model = _todoRepository.GetAll();
-            return View(model);
+            // Sprawdź, czy użytkownik jest zalogowany i czy ma rolę rodzica
+            if (HttpContext.Session.GetString("UserRole") != UserRole.Parent.ToString())
+            {
+                return RedirectToAction("Index", "Child");
+            }
+
+            // Pobierz użytkowników z pliku JSON
+            var users = GetUsersFromJson();
+
+            // Przekaż dane do widoku
+            return View(users);
         }
 
-        [HttpGet]
-        public IActionResult AddTodo()
+        public IActionResult Create()
         {
             return View();
         }
+
         [HttpPost]
-        public IActionResult AddTodo(Todo model) 
+        public IActionResult Create(User user)
         {
+            // Walidacja danych
             if (ModelState.IsValid)
             {
-                _todoRepository.Insert(model);
-                _todoRepository.Save();
-                return RedirectToAction("Index", "Parent");
+                // Dodaj nowego użytkownika do pliku JSON
+                AddUserToJson(user);
+
+                // Przekieruj do listy użytkowników
+                return RedirectToAction("Index");
             }
-            return View();
+
+            // Wyświetl ponownie formularz z błędami
+            return View(user);
         }
-        [HttpGet]
-        public IActionResult EditTodo(int id)
+
+        // ... inne metody
+
+        private List<User> GetUsersFromJson()
         {
-            Todo model = _todoRepository.GetById(id);
-            return View(model);
-        }
-        [HttpPost]
-        public IActionResult EditTodo(Todo model)
-        {
-            if (ModelState.IsValid)
+            if (System.IO.File.Exists(UsersFilePath))
             {
-                _todoRepository.Update(model);
-                _todoRepository.Save();
-                return RedirectToAction("Index", "Parent");
+                string jsonString = System.IO.File.ReadAllText(UsersFilePath);
+                return JsonSerializer.Deserialize<List<User>>(jsonString);
             }
             else
             {
-                return View(model);
+                return new List<User>();
             }
         }
-        [HttpGet]
-        public IActionResult DeleteTodo(int id)
+
+        private void AddUserToJson(User user)
         {
-            Todo model = _todoRepository.GetById(id);
-            return View(model);
+            var users = GetUsersFromJson();
+            users.Add(user);
+            SaveUsersToJson(users);
         }
-        [HttpPost]
-        public IActionResult Delete(int id)
+
+        private void SaveUsersToJson(List<User> users)
         {
-            _todoRepository.Delete(id);
-            _todoRepository.Save();
-            return RedirectToAction("Index", "Parent");
+            string jsonString = JsonSerializer.Serialize(users);
+            System.IO.File.WriteAllText(UsersFilePath, jsonString);
+        }
+
+        private User GetUserById(int userId)
+        {
+            var users = GetUsersFromJson();
+            return users.FirstOrDefault(u => u.Id == userId);
+        }
+
+        private void UpdateUsersFromJson(User user)
+        {
+            var users = GetUsersFromJson();
+            var existingUser = users.FirstOrDefault(u => u.Id == user.Id);
+
+            if (existingUser != null)
+            {
+                // Zaktualizuj dane użytkownika
+                existingUser.FirstName = user.FirstName;
+                existingUser.LastName = user.LastName;
+                existingUser.Email = user.Email;
+
+                SaveUsersToJson(users);
+            }
+        }
+        private void DeleteUserFromJson(int userId)
+        {
+            var users = GetUsersFromJson();
+            var userToRemove = users.FirstOrDefault(u => u.Id == userId);
+
+            if (userToRemove != null)
+            {
+                users.Remove(userToRemove);
+                SaveUsersToJson(users);
+            }
         }
     }
 }
