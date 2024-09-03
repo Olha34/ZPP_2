@@ -1,0 +1,20 @@
+[
+  {
+    "TaskId": 1,
+    "Name": "Sprz�tanie pokoju",
+    "Description": "Posprz�taj sw�j pok�j",
+    "Points": 10
+  },
+  {
+    "TaskId": 2,
+    "Name": "Mycie naczy�",
+    "Description": "Umyj naczynia po obiedzie",
+    "Points": 5
+  },
+  {
+    "TaskId": 3,
+    "Name": "Nauka do szko�y",
+    "Description": "Przygotuj si� do jutrzejszych zaj��",
+    "Points": 15
+  }
+]
