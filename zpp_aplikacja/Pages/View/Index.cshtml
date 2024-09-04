@@ -1,0 +1,37 @@
+﻿@model IEnumerable<zpp_aplikacja.Pages.Models.Tasks>
+
+@{
+    ViewData["Title"] = "Lista zadań";
+}
+
+<h1>Lista zadań</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tytuł</th>
+            <th>Punkty</th>
+            <th>Status</th>
+            <th>Data dodania</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var task in Model)
+        {
+            <tr>
+                <td>@task.Name</td>
+                <td>@task.Points</td>
+                <td>@task.Status</td>
+                <td>@task.CreatedDate</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@task.Id">Edytuj</a> |
+                    <a asp-action="Details" asp-route-id="@task.Id">Szczegóły</a> |
+                    <a asp-action="Delete" asp-route-id="@task.Id">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Dodaj nowe zadanie</a>
