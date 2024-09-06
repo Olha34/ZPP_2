@@ -1,0 +1,27 @@
+﻿@model IEnumerable<zpp_aplikacja.Pages.Models.Reward>
+
+@{
+    ViewData["Title"] = "Dostępne nagrody";
+}
+
+<h1>Dostępne nagrody</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nazwa</th>
+            <th>Punkty</th>
+            <th>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reward in Model)
+        {
+            <tr>
+                <td>@reward.Name</td>
+                <td>@reward.PointsRequired</td>
+                <td>@reward.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>

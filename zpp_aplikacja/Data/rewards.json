@@ -1,0 +1,20 @@
+[
+  {
+    "RewardId": 1,
+    "Name": "Lody",
+    "Description": "Pojdziemy na twoje ulubione lody i wezmiemy najwiekszego",
+    "PointsRequired": 20
+  },
+  {
+    "TaskId": 2,
+    "Name": "Komputer",
+    "Description": "Bedziesz mogl pograc na komputerze przez 2h",
+    "PointsRequired": 30
+  },
+  {
+    "TaskId": 3,
+    "Name": "Kino",
+    "Description": "Bedziesz mogl isc do kina z swoim kolega",
+    "PointsRequired": 100
+  }
+]

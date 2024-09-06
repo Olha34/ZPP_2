@@ -1,0 +1,26 @@
+﻿@page
+<link rel="stylesheet" href="~/css/style.css" />
+
+
+
+
+<div class="text-center">
+    <h2>Wybierz swoją akcję:</h2>
+
+    <h3>Dla dziecka:</h3>
+    <ul>
+        <li>@Html.ActionLink("Lista zadań dziecka", "Child", "Child")</li>
+        <li>@Html.ActionLink("Nagrody do kupienia", "Rewards", "Child")</li>
+    </ul>
+
+    <h3>Dla rodzica:</h3>
+    <ul>
+        <li>@Html.ActionLink("Zarządzanie użytkownikami", "Parent", "Parent")</li>
+        <li>@Html.ActionLink("Zarządzanie nagrodami", "Rewards", "Parent")</li>
+        <li>@Html.ActionLink("Zarządzanie zadaniami", "Tasks", "Parent")</li>
+    </ul>
+
+
+
+
+</div>

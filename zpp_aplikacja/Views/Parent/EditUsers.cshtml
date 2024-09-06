@@ -1,0 +1,37 @@
+﻿@page
+@model zpp_aplikacja.Pages.Models.User
+
+
+<form asp-action="EditUsers" method="post">
+    <div class="form-group">
+        @Html.LabelFor(x=>x.FirstName)
+        @Html.EditorFor(x=>x.FirstName)
+        @Html.ValidationMessageFor(x=>x.FirstName)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.LastName)
+        @Html.EditorFor(x => x.LastName)
+        @Html.ValidationMessageFor(x => x.LastName)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Email)
+        @Html.EditorFor(x => x.Email)
+        @Html.ValidationMessageFor(x => x.Email)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Password)
+        @Html.EditorFor(x => x.Password)
+        @Html.ValidationMessageFor(x => x.Password)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Role)
+        @Html.EditorFor(x => x.Role)
+        @Html.ValidationMessageFor(x => x.Role)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Points)
+        @Html.EditorFor(x => x.Points)
+        @Html.ValidationMessageFor(x => x.Points)
+    </div>
+    <button type="submit" class="btn btn-primary">Dodaj zadanie</button>
+</form>

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<zpp_aplikacja.Pages.Models.Tasks>
+
+<link rel="stylesheet" href="~/css/style.css" />
+
+
+@{
+    ViewData["Title"] = "Twoje zadania";
+}
+
+<h1>Twoje zadania</h1>
+
+<p>Masz @ViewBag.Points punktów!</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nazwa</th>
+            <th>Opis</th>
+            <th>Punkty</th>
+            <th>Status</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var task in Model)
+        {
+            <tr>
+                <td>@task.Name</td>
+                <td>@task.Description</td>
+                <td>@task.Points</td>
+                <td>@(task.CompletedByUserId ? "Zakończone" : "W toku")</td>
+                <td>
+                    @if (!task.CompletedByUserId)
+                    {
+                        <a asp-action="Complete" asp-route-id="@task.Id" class="btn btn-success">Zakończ</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Rewards" class="btn btn-info">Nagrody</a>
+
+
+    <a asp-action="Create" class="btn btn-primary">Dodaj zadanie</a>

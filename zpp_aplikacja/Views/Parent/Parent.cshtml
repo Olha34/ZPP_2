@@ -1,0 +1,43 @@
+﻿@model IEnumerable<zpp_aplikacja.Pages.Models.User>
+@using zpp_aplikacja.Pages.Models
+
+<link rel="stylesheet" href="~/css/style.css" />
+
+@{
+    ViewData["Title"] = "Zarządzanie użytkownikami";
+}
+
+<h1>Zarządzanie użytkownikami</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Imię</th>
+            <th>Nazwisko</th>
+            <th>Email</th>
+            <th>Punkty</th>
+            <th>Rola</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.FirstName</td>
+                <td>@user.LastName</td>
+                <td>@user.Email</td>
+                <td>@user.Points</td>
+                <td>@(user.Role == UserRole.Child ? "Dziecko" : "Rodzic")</td>
+                <td>
+                <td>
+                    <a asp-action="EditUsers" asp-route-id="@user.Id" class="btn btn-warning">Edytuj</a>
+                    <a asp-action="DeleteUsers" asp-route-id="@user.Id" class="btn btn-danger">Usuń</a>
+                </td>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="CreateUsers" class="btn btn-primary">Dodaj użytkownika</a>

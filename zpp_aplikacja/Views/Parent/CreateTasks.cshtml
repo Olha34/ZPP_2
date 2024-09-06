@@ -1,0 +1,34 @@
+﻿@model zpp_aplikacja.Pages.Models.Tasks
+
+<link rel="stylesheet" href="~/css/style.css" />
+
+
+@{
+    ViewData["Title"] = "Dodaj nowe zadanie";
+}
+
+<h1>Dodaj nowe zadanie</h1>
+
+<form asp-action="CreateTasks" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Points"></label>
+        <input asp-for="Points" class="form-control" />
+        <span asp-validation-for="Points" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Status"></label>
+        <input asp-for="Status" class="form-control" />
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Dodaj zadanie</button>
+</form>

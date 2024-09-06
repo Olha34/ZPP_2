@@ -1,0 +1,35 @@
+﻿@model IEnumerable<zpp_aplikacja.Pages.Models.Reward>
+<link rel="stylesheet" href="~/css/style.css" />
+
+@{
+    ViewData["Title"] = "Zarządzanie nagrodami";
+}
+
+<h1>Zarządzanie nagrodami</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nazwa</th>
+            <th>Punkty</th>
+            <th>Opis</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reward in Model)
+        {
+            <tr>
+                <td>@reward.Name</td>
+                <td>@reward.PointsRequired</td>
+                <td>@reward.Description</td>
+                <td>
+                    <a asp-action="EditRewards" asp-route-id="@reward.RewardId" class="btn btn-warning">Edytuj</a>
+                    <a asp-action="DeleteRewards" asp-route-id="@reward.RewardId" class="btn btn-danger">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="CreateRewards" class="btn btn-primary">Dodaj nagrodę</a>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\zpp_aplikacja.props" />
+</Project>

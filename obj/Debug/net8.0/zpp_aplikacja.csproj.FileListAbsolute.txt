@@ -1,7 +1,0 @@
-C:\Users\Jakub\source\repos\zpp_aplikacja\zpp_aplikacja\obj\Debug\net8.0\zpp_aplikacja.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jakub\source\repos\zpp_aplikacja\zpp_aplikacja\obj\Debug\net8.0\zpp_aplikacja.AssemblyInfoInputs.cache
-C:\Users\Jakub\source\repos\zpp_aplikacja\zpp_aplikacja\obj\Debug\net8.0\zpp_aplikacja.AssemblyInfo.cs
-C:\Users\Jakub\source\repos\zpp_aplikacja\zpp_aplikacja\obj\Debug\net8.0\zpp_aplikacja.csproj.CoreCompileInputs.cache
-C:\Users\Jakub\source\repos\zpp_aplikacja\zpp_aplikacja\obj\Debug\net8.0\zpp_aplikacja.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Jakub\source\repos\zpp_aplikacja\zpp_aplikacja\obj\Debug\net8.0\zpp_aplikacja.RazorAssemblyInfo.cache
-C:\Users\Jakub\source\repos\zpp_aplikacja\zpp_aplikacja\obj\Debug\net8.0\zpp_aplikacja.RazorAssemblyInfo.cs

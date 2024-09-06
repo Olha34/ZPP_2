@@ -1,0 +1,147 @@
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Pastelowy niebieski */
+    color: #333;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ff69b4; /* Ró¿owy */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    table th, table td {
+        border: 2px solid #ff69b4; /* Ró¿owa obwódka */
+        padding: 15px;
+        text-align: center;
+    }
+
+    table th {
+        background-color: #ffb6c1; /* Jasnoró¿owy */
+        color: #333;
+    }
+
+    table td {
+        background-color: #fffacd; /* Pastelowy ¿ó³ty */
+    }
+
+    table tr:nth-child(even) td {
+        background-color: #f0e68c; /* Jaœniejszy pastelowy ¿ó³ty */
+    }
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.2em;
+    color: #ff69b4;
+}
+
+input[type="text"], input[type="number"], input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    font-size: 1.2em;
+    background-color: #fffacd;
+    color: #333;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    transform: scale(1.5);
+    margin: 10px 0;
+}
+
+button, .btn-primary, .btn-success {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+}
+
+    button:hover, .btn-primary:hover, .btn-success:hover {
+        background-color: #ff1493; /* Ciemniejszy ró¿owy */
+    }
+
+a {
+    text-decoration: none;
+    color: #ff69b4;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+    a:hover {
+        color: #ff1493; /* Ciemniejszy ró¿owy */
+        text-decoration: underline;
+    }
+
+.btn-primary:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Przyciski do akcji edycji i usuwania */
+table td a {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #ffa07a; /* £ososiowy */
+    color: white;
+}
+
+    table td a:hover {
+        background-color: #ff6347; /* Ciemniejszy ³ososiowy */
+    }
+
+/* Styl dla tabeli i nag³ówków */
+thead {
+    font-size: 1.2em;
+}
+
+tbody tr {
+    font-size: 1.1em;
+}
+
+/* Styl formularzy */
+form input[type="submit"] {
+    background-color: #87ceeb; /* Niebieski nieba */
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #00bfff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+    form input[type="submit"]:hover {
+        background-color: #00bfff;
+    }
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
