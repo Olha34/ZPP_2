@@ -1,74 +1,121 @@
+﻿/* Styl dla całego ciała dokumentu */
 body {
-    font-family: 'Comic Sans MS', 'Arial', sans-serif;
-    background-color: #f0f8ff; /* Pastelowy niebieski */
-    color: #333;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Przyjazna czcionka */
+    background-color: #e0f7fa; /* Jasny błękitny */
+    color: #333; /* Kontrastowy ciemny szary */
     padding: 20px;
+    line-height: 1.6; /* Zwiększona czytelność tekstu */
 }
 
+/* Styl dla nagłówków h2 */
 h2 {
-    font-size: 2em;
-    color: #ff69b4; /* R�owy */
+    font-size: 2.5em;
+    color: #f06292; /* Jaśniejszy różowy */
     text-align: center;
     margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Delikatny cień dla głębi */
+    padding: 10px;
+    border-radius: 15px; /* Zaokrąglone krawędzie */
+    background-color: #fce4ec; /* Jasne, różowe tło */
+    border: 2px solid #f06292; /* Ozdobna, różowa ramka */
 }
 
+/* Styl dla tabeli */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    font-size: 1em;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Przyjazna czcionka */
+    background-color: #ffffff; /* Białe tło */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Delikatny cień */
+    border-radius: 12px; /* Zaokrąglone krawędzie */
+    overflow: hidden; /* Aby zaokrąglone krawędzie działały */
 }
 
-    table th, table td {
-        border: 2px solid #ff69b4; /* R�owa obw�dka */
+    /* Styl nagłówków tabeli */
+    table th {
+        background-color: #f8bbd0; /* Jasnoróżowy */
+        color: #333;
+        padding: 15px;
+        border: 2px solid #f06292; /* Różowa obwódka */
+        text-align: center;
+        font-size: 1.2em; /* Większa czcionka */
+    }
+
+    /* Styl komórek tabeli */
+    table td {
+        background-color: #fff9c4; /* Pastelowy żółty */
+        color: #333;
+        border: 2px solid #f06292; /* Różowa obwódka */
         padding: 15px;
         text-align: center;
+        transition: background-color 0.3s ease; /* Płynna zmiana koloru */
     }
 
-    table th {
-        background-color: #ffb6c1; /* Jasnor�owy */
-        color: #333;
+        /* Efekt najechania na komórki tabeli */
+        table td:hover {
+            background-color: #ffff8d; /* Jaśniejszy pastelowy żółty */
+        }
+
+        /* Zaokrąglone rogi dla komórek */
+        table th:first-child, table td:first-child {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        table th:last-child, table td:last-child {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+    /* Kolorowanie wierszy tabeli */
+    table tr:nth-child(even) {
+        background-color: #f0f4c3; /* Jaśniejszy pastelowy żółty */
     }
 
-    table td {
-        background-color: #fffacd; /* Pastelowy ��ty */
-    }
-
-    table tr:nth-child(even) td {
-        background-color: #f0e68c; /* Ja�niejszy pastelowy ��ty */
-    }
-
+/* Styl formularzy */
 form {
     max-width: 600px;
     margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Białe tło dla formularza */
+    border-radius: 10px; /* Zaokrąglone krawędzie */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Delikatny cień */
 }
 
+/* Styl grup formularzy */
 .form-group {
     margin-bottom: 15px;
 }
 
+/* Styl etykiet */
 label {
     font-size: 1.2em;
-    color: #ff69b4;
+    color: #f06292; /* Jasny różowy */
 }
 
+/* Styl dla pól tekstowych i innych */
 input[type="text"], input[type="number"], input[type="checkbox"] {
     width: 100%;
     padding: 10px;
-    border: 2px solid #ff69b4;
+    border: 2px solid #f06292; /* Różowa obwódka */
     border-radius: 10px;
     font-size: 1.2em;
-    background-color: #fffacd;
+    background-color: #fff9c4; /* Pastelowy żółty */
     color: #333;
 }
 
+/* Styl dla checkboxów */
 input[type="checkbox"] {
     width: auto;
-    transform: scale(1.5);
+    transform: scale(1.5); /* Powiększenie checkboxów */
     margin: 10px 0;
 }
 
+/* Styl dla przycisków */
 button, .btn-primary, .btn-success {
-    background-color: #ff69b4;
+    background-color: #f06292; /* Jasny różowy */
     color: white;
     padding: 10px 20px;
     font-size: 1.5em;
@@ -81,67 +128,53 @@ button, .btn-primary, .btn-success {
 }
 
     button:hover, .btn-primary:hover, .btn-success:hover {
-        background-color: #ff1493; /* Ciemniejszy r�owy */
+        background-color: #c2185b; /* Ciemniejszy różowy */
     }
 
+/* Styl dla linków */
 a {
     text-decoration: none;
-    color: #ff69b4;
+    color: #f06292; /* Jasny różowy */
     font-weight: bold;
     font-size: 1.2em;
 }
 
     a:hover {
-        color: #ff1493; /* Ciemniejszy r�owy */
+        color: #c2185b; /* Ciemniejszy różowy */
         text-decoration: underline;
     }
 
+/* Styl dla nieaktywnych przycisków */
 .btn-primary:disabled {
-    background-color: #ccc;
+    background-color: #ccc; /* Szary kolor dla nieaktywnych przycisków */
     cursor: not-allowed;
 }
 
-/* Przyciski do akcji edycji i usuwania */
+/* Styl przycisków w tabeli */
 table td a {
     padding: 10px 15px;
     border-radius: 10px;
-    background-color: #ffa07a; /* �ososiowy */
+    background-color: #ffab91; /* Łososiowy */
     color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+    /* Efekt najechania na przyciski w tabeli */
     table td a:hover {
-        background-color: #ff6347; /* Ciemniejszy �ososiowy */
+        background-color: #ff7043; /* Ciemniejszy łososiowy */
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
     }
 
-/* Styl dla tabeli i nag��wk�w */
-thead {
-    font-size: 1.2em;
-}
-
-tbody tr {
-    font-size: 1.1em;
-}
-
-/* Styl formularzy */
-form input[type="submit"] {
-    background-color: #87ceeb; /* Niebieski nieba */
-    color: white;
-    font-size: 1.2em;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: 2px solid #00bfff;
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-}
-
-    form input[type="submit"]:hover {
-        background-color: #00bfff;
-    }
-
+/* Styl dla stopki */
 footer {
     text-align: center;
     margin-top: 20px;
-    font-size: 1.1em;
+    font-size: 1.2em; /* Większa czcionka */
     color: #555;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Przyjazna czcionka */
 }

@@ -9,111 +9,111 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = zpp_aplikacja
 build_property.RootNamespace = zpp_aplikacja
-build_property.ProjectDir = D:\PLIKI\STUDIA\SEM6\ZPP\zpp_aplikacja\zpp_aplikacja\
+build_property.ProjectDir = C:\Users\asus\Downloads\zpp_aplikacja_poprawki\zpp_aplikacja\zpp_aplikacja\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\PLIKI\STUDIA\SEM6\ZPP\zpp_aplikacja\zpp_aplikacja
+build_property.MSBuildProjectDirectory = C:\Users\asus\Downloads\zpp_aplikacja_poprawki\zpp_aplikacja\zpp_aplikacja
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Child/Child.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Child/Child.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpbGRcQ2hpbGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Child/Rewards.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Child/Rewards.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpbGRcUmV3YXJkcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/CreateRewards.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/CreateRewards.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XENyZWF0ZVJld2FyZHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/CreateTasks.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/CreateTasks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XENyZWF0ZVRhc2tzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/CreateUsers.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/CreateUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XENyZWF0ZVVzZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/DeleteRewards.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/DeleteRewards.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XERlbGV0ZVJld2FyZHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/DeleteTasks.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/DeleteTasks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XERlbGV0ZVRhc2tzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/DeleteUsers.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/DeleteUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XERlbGV0ZVVzZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/EditRewards.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/EditRewards.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XEVkaXRSZXdhcmRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/EditTasks.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/EditTasks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XEVkaXRUYXNrcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/EditUsers.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/EditUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XEVkaXRVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/Parent.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/Parent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XFBhcmVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/Rewards.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/Rewards.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XFJld2FyZHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Parent/Tasks.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Parent/Tasks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50XFRhc2tzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Shared/Index.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Shared/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/TasksList.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/TasksList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza3NMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Users/.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Users/.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Users/Delete.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Users/Edit.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Users/Index.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Users/Login.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/_ViewImports.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/_ViewStart.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PLIKI/STUDIA/SEM6/ZPP/zpp_aplikacja/zpp_aplikacja/Views/Shared/_Layout.cshtml]
+[C:/Users/asus/Downloads/zpp_aplikacja_poprawki/zpp_aplikacja/zpp_aplikacja/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vb04fo4pr5

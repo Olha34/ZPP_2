@@ -1,12 +1,292 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aride\\Documents\\GitHub\\ZPP_2\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\createrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\createrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\createusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\createusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\createtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\createtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\rewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\rewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\parent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\parent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\taskslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\taskslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\editusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\editusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\edittasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\edittasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\editrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\editrewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\deleteusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\deleteusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\deletetasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\deletetasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\views\\parent\\deleterewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\views\\parent\\deleterewards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|d:\\pliki\\studia\\sem6\\zpp\\zpp_aplikacja\\zpp_aplikacja\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6E7D33-4CED-4946-82D5-350D695D8E20}|zpp_aplikacja\\zpp_aplikacja.csproj|solutionrelative:zpp_aplikacja\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Shared\\Index.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Shared\\Index.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Shared\\Index.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Shared\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:04:03.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TasksList.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\TasksList.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\TasksList.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\TasksList.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\TasksList.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:03:55.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteUsers.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\DeleteUsers.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\DeleteUsers.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\DeleteUsers.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\DeleteUsers.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:00:26.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tasks.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\Tasks.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\Tasks.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\Tasks.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\Tasks.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:01:34.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rewards.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\Rewards.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\Rewards.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\Rewards.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\Rewards.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:01:32.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Parent.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\Parent.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\Parent.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\Parent.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\Parent.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:01:29.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditUsers.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\EditUsers.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\EditUsers.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\EditUsers.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\EditUsers.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:01:27.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditRewards.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\EditRewards.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\EditRewards.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\EditRewards.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\EditRewards.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:00:28.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeleteRewards.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\DeleteRewards.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\DeleteRewards.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\DeleteRewards.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\DeleteRewards.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:00:20.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateUsers.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\CreateUsers.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\CreateUsers.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\CreateUsers.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\CreateUsers.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:00:19.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateRewards.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\CreateRewards.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\CreateRewards.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\CreateRewards.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\CreateRewards.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:00:12.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteTasks.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\DeleteTasks.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\DeleteTasks.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\DeleteTasks.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\DeleteTasks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T14:33:49.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateTasks.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\CreateTasks.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\CreateTasks.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\CreateTasks.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\CreateTasks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T14:31:33.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Models\\Tasks.cs",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Models\\Tasks.cs",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Models\\Tasks.cs",
+              "RelativeToolTip": "zpp_aplikacja\\Models\\Tasks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T14:31:09.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditTasks.cshtml",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\EditTasks.cshtml",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Views\\Parent\\EditTasks.cshtml",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Views\\Parent\\EditTasks.cshtml",
+              "RelativeToolTip": "zpp_aplikacja\\Views\\Parent\\EditTasks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T14:31:02.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ParentController.cs",
+              "DocumentMoniker": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Controllers\\ParentController.cs",
+              "RelativeDocumentMoniker": "zpp_aplikacja\\Controllers\\ParentController.cs",
+              "ToolTip": "D:\\PLIKI\\STUDIA\\SEM6\\ZPP\\zpp_aplikacja\\zpp_aplikacja\\Controllers\\ParentController.cs",
+              "RelativeToolTip": "zpp_aplikacja\\Controllers\\ParentController.cs",
+              "ViewState": "AQIAAG0BAAAAAAAAAAD4v5EBAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T10:12:31.914Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
